@@ -2,9 +2,25 @@
   "name": "techblog",
   "version": "1.0.0",
   "description": "## Your Task",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-js": "^1.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local-sequelize": "^0.9.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +32,5 @@
   "bugs": {
     "url": "https://github.com/JEckfeldt/techblog/issues"
   },
-  "homepage": "https://github.com/JEckfeldt/techblog#readme",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "handlebars": "^4.7.7",
-    "mysql2": "^2.2.5"
-  }
+  "homepage": "https://github.com/JEckfeldt/techblog#readme"
 }
